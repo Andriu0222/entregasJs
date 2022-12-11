@@ -4,39 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heladeria</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=New+Rocker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=normal"
+      rel="stylesheet"
+    />
+    <title>Heladeria A&A</title>
   </head>
   <body>
-    <section class="Helados__Content">
-      <h1>
-        Crear un nuevo helado.
-      </h1>
-      <div class="Helados__Form">
-        <label for="nombre">Nombre</label>
-        <input
-          type="text"
-          id="inputName"
-          placeholder="Ingresa el nombre"
-          value=""
-        />
-        <label for="nombre">Nombre</label>
-        <input
-          type="number"
-          id="inputPrice"
-          placeholder="Ingresa el precio"
-          value=""
-        />
-        <button id="btnAdd">Agregar</button>
-        <label for="selectHelado"
-          >Selecciona el helado que quieras comprar:</label
-        >
-        <select name="selectHelado" id="Helado">
-          <option value="Selecciona un Helado" selected disabled>Selecciona un Helado</option>
-        </select>
-
-        <span id="orderDescription"></span>
-      </div>
-    </section>
-    <script src="./index2.js"></script>
+    <main class="Main__Content">
+      <section class="Helados">
+        <div class="Helados__Content">
+          <h1>Heladeria A&A</h1>
+          <span class="Helados__Content--text"
+            >Bienvenidos a la mejor heladeria de Medellin.</span
+          >
+          <span class="Helados__Content--text"
+            >Estamos muy contentos de atenderte.</span
+          >
+          <a href="" class="Helados__Content--link">Ver menú</a>
+        </div>
+      </section>
+      <section class="Menu" id="Menu">
+        <div class="Menu__Content">
+          <h1>Menú de helados</h1>
+          <div class="Menu__Content--items">
+            <ul class="Items"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
   </body>
 </html>

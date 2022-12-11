@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Salpicon con helado",
+        "price": 9000,
+        "descripcion": "Salpicon con variedad de frutas.",
+        "image": "salpicon.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Helado de chocolate",
+        "price": 5000,
+        "descripcion": "3 Bolitas del helado que mas te guste.",
+        "image": "chocolate.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Concha con helado",
+        "price": 6500,
+        "descripcion": "Concha crujiente con dos bolas de helado.",
+        "image": "Concha.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Malteadas",
+        "price": 9000,
+        "descripcion": "Malteadas de fresa, chocolate, arequipe",
+        "image": "malteada.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Waffles con helado",
+        "price": 10000,
+        "descripcion": "Delicioso waffle con una bola de helado, fresas y salsas",
+        "image": "waffle.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Granizados",
+        "price": 6500,
+        "descripcion": "Delciosos granizados de cafe y otros sabores.",
+        "image": "granizado.jpg"
+    }
+]

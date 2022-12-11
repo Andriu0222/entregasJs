@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.Helados__Header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Helados {
+  background-image: url("../assets/images/imgHome.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.Helados__Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  float: right;
+}
+
+.Helados__Content h1 {
+  color: #ffd893;
+  font-size: 70px;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+
+.Helados__Content--text {
+  display: block;
+  color: #f5f5f5;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  line-height: 1;
+}
+
+.Helados__Content--link {
+  display: block;
+  background-color: #e3dada;
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #01aab4;
+  text-decoration: none;
+}
+
+.Helados__Content--link:hover {
+  background-color: #f5f5f5;
+}
+
+.Menu {
+  width: 100%;
+  height: 100vh;
+}
+
+.Menu__Content {
+  background: linear-gradient(0deg, #000000 0%, #312e2e 100%);
+}
+
+.Menu__Content h1 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f5f5f5;
+}
+
+.Menu__Content--items {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.Menu__Content--items > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  list-style: none;
+}
+
+.Items__Image > img {
+  width: 100%;
+  max-height: 368px;
+  object-fit: cover;
+}
+
+.Items__Image {
+  position: relative;
+  margin-top: 30px;
+}
+
+.Items__Image > h2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -30px;
+  margin: 0 auto;
+  width: 75%;
+  padding: 20px;
+  background-color: #9d6f4ecf;
+  text-align: center;
+  color: #f5f5f5; 
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.Item__Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Item__Description {
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 15px 0;
+}
+
+.Item__Price{
+  padding: 15px;
+  background-color: #312e2e;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
+}
